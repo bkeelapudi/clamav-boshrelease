@@ -5,7 +5,7 @@ addons:
 - name: emc-clamav
   jobs:
   - name: clamav
-    release: clamav
+    release: emc-clamav
     properties:
       clamav:
         dbMirror1: db.local.clamav.net
